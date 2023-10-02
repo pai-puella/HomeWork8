@@ -17,5 +17,30 @@ public class Main {
         System.out.println(Arrays.toString(arr2).replace("[", "").replace("]", ""));
         System.out.println(Arrays.toString(arr3).replace("[", "").replace("]", ""));
         System.out.println();
+
+        System.out.println("Задача 3");
+        for (int i = arr1.length - 1; i >= 0; i--) {
+            System.out.print(arr1[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        for (int i = arr2.length - 1; i >= 0; i--) {
+            System.out.print(arr2[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        for (int i = arr3.length - 1; i >= 0; i--) {
+            System.out.print(arr3[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
     }
 }
